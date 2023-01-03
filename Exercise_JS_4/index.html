@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Bài tập 1 -->
+    <h2>Bài tập 1</h2>
+    <form action="">
+      <label for="">Nhập vào họ và tên</label>
+      <input type="text" placeholder="Họ và Tên" id="name" value="" />
+      <label for="">Nhập vào tổng thu nhập năm</label>
+      <input type="text" placeholder="Thu nhập" id="salary" value="" />
+      <label for="">Số người phụ thuộc</label>
+      <input type="text" placeholder="Số người" id="people" value="" />
+      <button type="button" id="ket-qua1">Kiểm tra</button>
+    </form>
+    <div id="ketqua1" style="display: none">Kết quả là:</div>
+
+    <!-- Bài tập 2 -->
+    <h2>Bài tập 2</h2>
+    <form action="">
+      <label for="">Chọn loại khách hàng</label>
+      <select name="" onchange="myFunction()" id="loai-kh">
+        <option value="">Chọn loại doanh nghiệp</option>
+        <option value="Nhà Dân">Nhà dân</option>
+        <option value="Doanh Nghiệp">Doanh nghiệp</option>
+      </select>
+      <input type="text" placeholder="Nhập mã khách hàng" id="code" value="" />
+      <input type="text" placeholder="Số kênh cao cấp" id="kenh" value="" />
+      <input
+        type="text"
+        placeholder="Số kết nối"
+        id="so-ketnoi"
+        style="display: none"
+        value=""
+      />
+      <button type="button" id="ket-qua2">Kiểm tra</button>
+    </form>
+    <div id="ketqua2" style="display: none">Kết quả là:</div>
+    <script src="./index.js"></script>
+  </body>
+</html>
